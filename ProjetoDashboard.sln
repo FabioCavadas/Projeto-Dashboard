@@ -7,9 +7,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Presentation Layer", "1
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Repository Layer", "2 - Repository Layer", "{092AE323-0F0A-4881-88AA-5A5DC6A568A8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Projeto.Presentation.MVC", "Projeto.Presentation.MVC\Projeto.Presentation.MVC.csproj", "{05AE6DEC-F337-48EA-8F73-5704F3FED37F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Projeto.Presentation.Mvc", "Projeto.Presentation.MVC\Projeto.Presentation.Mvc.csproj", "{05AE6DEC-F337-48EA-8F73-5704F3FED37F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Projeto.Infra.Data", "Projeto.Infra.Data\Projeto.Infra.Data.csproj", "{1479C23F-3B63-40DF-9B0B-D804A7D168FB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Projeto.Infra.Data", "Projeto.Infra.Data\Projeto.Infra.Data.csproj", "{1479C23F-3B63-40DF-9B0B-D804A7D168FB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

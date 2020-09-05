@@ -1,14 +1,16 @@
-﻿using System;
+﻿using Projeto.Infra.Data.Enums;
+using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Threading.Tasks;
-using System.ComponentModel.DataAnnotations;
-using Projeto.Infra.Data.Enums;
 
 namespace Projeto.Presentation.Mvc.Models
 {
-    public class ContaCadastroModel
+    public class ContaEdicaoModel
     {
+        public string  Id { get; set; }
+
         [MinLength(3, ErrorMessage = "Informe no mínimo {1} caracteres.")]
         [MaxLength(150, ErrorMessage = "Informe no máximo {1} caracteres.")]
         [Required(ErrorMessage = "Informe o nome da conta.")]
